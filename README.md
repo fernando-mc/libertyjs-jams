@@ -1,4 +1,4 @@
-# Serverless Jams
+# LibertyJS Jams
 
 A demo serverless web application created with the [Serverless Framework](https://serverless.com).
 

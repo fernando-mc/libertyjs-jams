@@ -1,6 +1,6 @@
 org: fernando
-app: serverlessjams
-service: serverless-jams
+app: libertyjs-jams
+service: libertyjs-jams
 
 frameworkVersion: ">=1.53.0 <2.0.0"
 
@@ -55,7 +55,7 @@ plugins:
 
 custom:
   client:
-    bucketName: www.serverlessjams.com
+    bucketName: www.libertyjsjams.com
     distributionFolder: frontend
     errorDocument: index.html
 
