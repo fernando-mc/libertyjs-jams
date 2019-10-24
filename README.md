@@ -8,10 +8,10 @@ To learn more visit [Serverless Learn](https://serverless.com/learn).
 
 First, clone this repository.
 
-Using SSH - `git clone git@github.com:fernando-mc/serverlessjams.git`
-Or using HTTPS - `git clone https://github.com/fernando-mc/serverlessjams.git`
+Using SSH - `git clone git@github.com:fernando-mc/libertyjs-jams.git`
+Or using HTTPS - `git clone https://github.com/fernando-mc/libertyjs-jams.git`
 
-Then, run `cd serverlessjams` and make sure you see two folders named `backend` and `frontend` and a file called `serverless.yml`.
+Then, run `cd libertyjs-jams` and make sure you see two folders named `backend` and `frontend` and a file called `serverless.yml`.
 
 ### Getting Dependencies
 
@@ -32,9 +32,11 @@ Inside `backend` there are two files.
 
 ### Frontend
 
-Our frontend contains a single `index.html` file. The UI relies on Semantic UI to create a simple interface. There are several basic JavaScript functions used to interact with the API endpoints, load the data into the application and to update the UI.
+Our frontend contains a single `index.html` file and a few JS and CSS files that are loaded into it. The UI relies on Semantic UI to create a simple interface. There are several basic JavaScript functions used to interact with the API endpoints, load the data into the application and to update the UI.
 
-The endpoints will need to be set inside of the `index.html` later on after the backend has been deployed.
+The endpoints will need to be set inside of the `app.js` later on after the backend has been deployed.
+
+You will also need to replace `auth_config.json` with your own Auth0 API Keys.
 
 ## Creating the Backend Service
 
