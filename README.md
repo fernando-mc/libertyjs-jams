@@ -40,6 +40,8 @@ You will also need to replace `auth_config.json` with your own Auth0 API Keys.
 
 ## Creating the Backend Service
 
+Update the `org` and `app` values in the `serverless.yml` file to reflect your own Serverless Dashboard account.
+
 Run `serverless deploy` in the top level directory that contains `serverless.yml`.
 
 When the service finishes deploying, make sure to save the API endpoints for the next step.
